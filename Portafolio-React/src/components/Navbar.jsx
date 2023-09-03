@@ -7,7 +7,7 @@ export const Navbar = () => {
             <div className="logo">React</div>
             <ul className="nav-links">
                 <li><Link to="/">Datos Personales</Link></li>
-                <li><Link to="/acerca">Perfil profesional</Link></li>
+                <li><Link to="/Perfil-Profesional">Perfil profesional</Link></li>
                 <li><Link to="/servicios">Experiencia Profesional</Link></li>
                 <li><Link to="/contacto">Experiencia Académica</Link></li>
             </ul>

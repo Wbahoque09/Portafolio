@@ -2,6 +2,7 @@ import ReactDOM from 'react-dom';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import { DatosPersonales } from '../components/DatosPersonales';
 import { Navbar } from '../components/Navbar';
+import { Perfil } from '../components/Perfil';
 
 export const Routes_Component = () => {
     return (
@@ -9,9 +10,9 @@ export const Routes_Component = () => {
             <Navbar />
             <Routes>
                 <Route path="/" element={<DatosPersonales />} />
-                {/* <Route path="/" element={Inicio} />
-                <Route path="/acerca" element={Acerca} />
-                <Route path="/servicios" element={Servicios} /> */}
+                <Route path="/Perfil-Profesional" element={<Perfil />} />
+                {/* <Route path="/acerca" element={Acerca} /> */}
+                {/* <Route path="/servicios" element={Servicios} /> */}
             </Routes>
         </BrowserRouter>
     )
