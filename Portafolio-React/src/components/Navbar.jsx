@@ -8,8 +8,8 @@ export const Navbar = () => {
             <ul className="nav-links">
                 <li><Link to="/">Datos Personales</Link></li>
                 <li><Link to="/Perfil-Profesional">Perfil profesional</Link></li>
-                <li><Link to="/servicios">Experiencia Profesional</Link></li>
-                <li><Link to="/contacto">Experiencia Académica</Link></li>
+                <li><Link to="/Experiencia-Profesional">Experiencia Profesional</Link></li>
+                <li><Link to="/Experiencia-Academica">Experiencia Académica</Link></li>
             </ul>
         </nav>
     )

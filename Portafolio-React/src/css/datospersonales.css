@@ -2,8 +2,11 @@
     padding: 20px;
     border-radius: 10px;
     margin-bottom: 20px;
+    background-color: #5048482a;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
     margin: 20px auto;
     max-width: 600px;
+    margin-bottom: 20rem;
 }
 
 h2 {
@@ -29,3 +32,4 @@ text-decoration: none;
 a:hover {
 text-decoration: underline;
 }
+

@@ -1,0 +1,27 @@
+.experiencia-academica {
+    background-color: #5048482a;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    border-radius: 10px;
+    margin: 20px auto;
+    max-width: 600px;
+}
+
+h2 {
+font-size: 24px;
+margin-bottom: 10px;
+}
+
+.proyecto {
+margin-bottom: 20px;
+}
+
+h3 {
+font-size: 20px;
+margin-bottom: 5px;
+}
+
+p {
+font-size: 16px;
+margin-bottom: 10px;
+}
